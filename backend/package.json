@@ -1,14 +1,17 @@
 {
-  "name": "pet-finder-backend",
-     "version": "1.0.0",
-     "main": "api/server.js",
-     "scripts": {
-       "start": "node api/server.js"
-     },
-     "dependencies": {
-       "express": "^4.17.1",
-       "jsonwebtoken": "^8.5.1",
-       "bcryptjs": "^2.4.3",
-       "mysql2": "^2.2.5"
-     }
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3"
+  }
 }
